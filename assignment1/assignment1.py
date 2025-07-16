@@ -202,4 +202,3 @@ def pig_latin(text):
     return final
 
 pig_latin("quick brown fox")
-
