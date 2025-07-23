@@ -1,3 +1,4 @@
+#Task 1
 import traceback
 
 try:
@@ -15,7 +16,7 @@ try:
                 
                 if line == "done for now":
                     break
-                    
+                
             except EOFError:
                 print("\nInput interrupted by user")
                 raise  # Re-raise the exception to be caught by the outer try-except
