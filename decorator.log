@@ -1,0 +1,15 @@
+function: hello_world
+positional parameters: none
+keyword parameters: none
+return: None
+----------------------------------------
+function: accepts_positional_args
+positional parameters: (1, 'two', [3, 4])
+keyword parameters: none
+return: True
+----------------------------------------
+function: accepts_keyword_args
+positional parameters: none
+keyword parameters: {'name': 'Alice', 'age': 30, 'role': 'Developer'}
+return: <function logger_decorator at 0x000002019BC9C1F0>
+----------------------------------------
