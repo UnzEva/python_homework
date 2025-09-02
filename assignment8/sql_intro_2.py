@@ -20,7 +20,7 @@ def main():
              ON li.product_id = p.product_id;
     """
 
-    # Check that the lesson database exists
+    # Check that the database exists
     if not os.path.exists(DB_PATH):
         print(f"[ERROR] Cannot find {os.path.abspath(DB_PATH)}.")
         print("Run load_db.py from the repository root to create ../db/lesson.db, then try again.")
