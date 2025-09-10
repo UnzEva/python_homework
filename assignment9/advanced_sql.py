@@ -1,7 +1,3 @@
-# advanced_sql.py
-# Simple version - each task as separate function
-# Run each function one by one to see the results
-
 import sqlite3
 import os
 
