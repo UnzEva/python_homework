@@ -1,7 +1,3 @@
-# advanced_sql.py
-# Simple version - each task as separate function
-# Run each function one by one to see the results
-
 import sqlite3
 import os
 
@@ -13,7 +9,7 @@ DB_PATH = os.path.join('..', 'db', 'lesson.db')
 # -------------------------------------------------------------------
 def task1_order_totals():
 
-    print("\n===== TASK 1: =====")
+    print("\n====== TASK 1: ======")
     print("---------------------------------------")
     
     try:
@@ -57,7 +53,7 @@ def task1_order_totals():
 # -------------------------------------------------------------------
 def task2_customer_averages():
 
-    print("\n===== TASK 2: =====")
+    print("\n====== TASK 2: ======")
     print("----------------------------------------------------------")
     
     try:
@@ -107,7 +103,7 @@ def task2_customer_averages():
 # -------------------------------------------------------------------
 def task3_create_order():
 
-    print("\n===== TASK 3: =====")
+    print("\n====== TASK 3: ======")
     print("--------------------------------------------------")
     
     try:
@@ -164,7 +160,7 @@ def task3_create_order():
 # -------------------------------------------------------------------
 def task4_busy_employees():
 
-    print("\n===== TASK 4: =====")
+    print("\n====== TASK 4: ======")
     print("-------------------------------------")
     
     try:
