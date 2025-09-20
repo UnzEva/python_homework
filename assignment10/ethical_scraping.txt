@@ -1,0 +1,20 @@
+Website: 
+https://en.wikipedia.org/robots.txt
+
+Restricted Sections:
+- /w/ (wiki pages editing)
+- /api/ (API endpoints)
+- /trap/ (special pages)
+- /special/ (special functions)
+- /wiki/Special: (special pages)
+
+User Agent Rules:
+- Specific rules for different crawlers like Googlebot, Bingbot
+- Some user agents have more restrictions than others
+- Wikipedia allows most crawlers but with rate limiting
+
+Purpose and Ethical Importance:
+Websites use robots.txt to communicate with web crawlers about which parts of the site should not be accessed. 
+This promotes ethical scraping by allowing website owners to control crawler access, prevent server overload, 
+and protect sensitive content while still allowing beneficial indexing by search engines. 
+Ethical scrapers respect these guidelines to maintain trust and avoid legal issues
