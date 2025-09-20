@@ -1,0 +1,24 @@
+Challenges:
+
+1. Finding correct CSS selectors: 
+   - The library website had complex nested HTML structure
+   - Solved by using browser developer tools to inspect elements
+
+2. Dynamic content loading:
+   - Some elements loaded after initial page load
+   - Added time.sleep(3) to wait for content
+
+3. Multiple authors handling:
+   - Some books had multiple author elements
+   - Used list comprehension to extract all authors
+
+4. XPath for OWASP site:
+   - Needed to find specific vulnerability elements
+   - Used contains() function in XPath to target correct elements
+
+Solutions:
+
+- Used browser developer tools extensively
+- Added error handling with try-except blocks
+- Tested selectors step by step
+- Added progress printing to debug extraction
